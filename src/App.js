@@ -1,18 +1,15 @@
 import NavTop from "./components/NavTop";
 import TitleNav from "./components/TitleNav";
 import NavBottom from "./components/NavBottom";
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="w-screen bg-gray-300">
-    <div className="mx-[5%]">
-        <NavTop/>
-        <div className="pl-[10%] bg-pink-400">
-            <TitleNav/>
-            <NavBottom/>
-        </div>
-    </div>
-  
+    <div className="w-screen">
+      <div className="mx-[5%]">
+          <NavTop/>
+      </div> 
+      <Main /> 
     </div>
   );
 }

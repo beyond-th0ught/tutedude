@@ -5,7 +5,7 @@ import DownArrow from '../assets/VectorDownArr.png'
 
 function NavTop() {
   return (
-    <div className='flex justify-between items-center bg-red-500 p-1'>
+    <div className='flex justify-between items-center  p-1'>
         <div >
             <img src={Logo} className="h-16 w-40 hover:cursor-pointer" />
         </div>

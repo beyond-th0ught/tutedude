@@ -1,6 +1,4 @@
 import NavTop from "./components/NavTop";
-import TitleNav from "./components/TitleNav";
-import NavBottom from "./components/NavBottom";
 import Main from './components/Main';
 
 function App() {

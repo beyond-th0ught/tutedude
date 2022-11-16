@@ -3,6 +3,7 @@ import TitleNav from './TitleNav'
 import NavBottom from './NavBottom'
 import ReferralCode from './ReferralCode'
 import Enrolled from './Enrolled'
+import WalletBal from './WalletBal'
 
 function FrdsRefer() {
   return (
@@ -10,7 +11,10 @@ function FrdsRefer() {
         <div className='w-[90%] md:w-[70%]'>
             <div className="">
                 <TitleNav/>
-                <ReferralCode/>
+                <div className='flex justify-between items-center'>
+                    <ReferralCode/>
+                    <WalletBal/>
+                </div>
                 <Enrolled/>
                 <NavBottom/>
             </div>

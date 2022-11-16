@@ -1,7 +1,8 @@
-import React from 'react'
+
 import ReferralCode from './ReferralCode'
 
 function WithdrawBal() {
+    
   return (
     <div className='grid md:grid-cols-2 gap-9  md:h-[17.5%] '>
     <div className='md:flex md:flex-col md:items-center md:h-full w-[90%]  md:w-auto font-[Poppins] p-3   border-2 rounded-xl shadow-[#000000] shadow-lg'>

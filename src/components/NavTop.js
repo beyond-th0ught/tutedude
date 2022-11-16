@@ -4,6 +4,7 @@ import Vector from '../assets/Vector.png'
 import DownArrow from '../assets/VectorDownArr.png'
 
 function NavTop() {
+    
   return (
     <nav className='flex justify-between items-center  p-1'>
         <div >

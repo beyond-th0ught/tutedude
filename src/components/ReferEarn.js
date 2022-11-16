@@ -4,7 +4,7 @@ import NavBottom from './NavBottom'
 import WithdrawBal from './WithdrawBal'
 import Work from './Work'
 
-function ReferEarn() {
+function ReferEarn({stateChaange}) {
   return (
     <div className='w-full flex justify-center'>
         <div className='w-[90%] md:w-[70%]'>
@@ -12,7 +12,7 @@ function ReferEarn() {
                 <TitleNav/>
                 <WithdrawBal/>
                 <Work/>
-                <NavBottom/>
+                <NavBottom stateChaange={stateChaange}/>
             </div>
         </div>
     </div>

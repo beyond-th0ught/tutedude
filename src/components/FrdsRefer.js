@@ -5,7 +5,7 @@ import ReferralCode from './ReferralCode'
 import Enrolled from './Enrolled'
 import WalletBal from './WalletBal'
 
-function FrdsRefer() {
+function FrdsRefer({stateChaange}) {
   return (
     <div className='w-full flex justify-center'>
         <div className='w-[90%] md:w-[70%]'>
@@ -16,7 +16,7 @@ function FrdsRefer() {
                     <WalletBal/>
                 </div>
                 <Enrolled/>
-                <NavBottom/>
+                <NavBottom stateChaange={stateChaange} />
             </div>
         </div>
     </div>

@@ -5,13 +5,16 @@ import React, { useState } from 'react'
 
 function App() {
   const [State, setState] = useState(true)
+  const stateChaange = () => {
+    setState(!State);
+  }
   return (
     <div className="w-screen">
-      <div className="mx-[5%]">
+      <div className="px-[5%]">
           <NavTop state={State} setState={setState}/>
       </div> 
       {
-         State ? (<ReferEarn />) : (<FrdsRefer />)
+         State ? (<ReferEarn stateChaange={stateChaange} />) : (<FrdsRefer stateChaange={stateChaange} />)
       }
     </div>
   );

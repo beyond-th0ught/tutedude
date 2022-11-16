@@ -1,13 +1,14 @@
 import NavTop from "./components/NavTop";
-import Main from './components/Main';
-
+import ReferEarn from "./components/ReferEarn";
+import FrdsRefer from "./components/FrdsRefer";
 function App() {
   return (
     <div className="w-screen">
       <div className="mx-[5%]">
           <NavTop/>
       </div> 
-      <Main /> 
+      <ReferEarn /> 
+      <FrdsRefer/>
     </div>
   );
 }

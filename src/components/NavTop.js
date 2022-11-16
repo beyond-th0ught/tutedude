@@ -10,7 +10,7 @@ function NavTop() {
         <div >
             <img src={Logo} className="md:h-16 h-12 w-30 md:w-40 hover:cursor-pointer" />
         </div>
-        <ul className='md:grid md:grid-cols-3  md:gap-5 font-[poppins] bg-slate-300 md:bg-white hover:cursor-pointer font-medium text-[#80008040]'>
+        <ul className='md:grid md:grid-cols-3 hidden md:gap-5 font-[poppins] bg-slate-300 md:bg-white hover:cursor-pointer font-medium text-[#80008040]'>
             <li className='my-6 md:my-0'><a>My Assignment</a></li>
             <li className='my-6 md:my-0'><a>Chat with Mentor</a></li>
             <div className='flex my-6 md:my-0 text-[#800080] items-center'>

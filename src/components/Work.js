@@ -35,8 +35,8 @@ function Work() {
         },
     ]
   return (
-    <div className='py-[8%]'>
-        <div className='font-[Poppin] text-[#800080] text-2xl font-semibold leading-9'>How does it work ?</div>
+    <div className='py-[8%] '>
+        <div className='font-[Poppin] text-[#800080]  text-2xl font-semibold leading-9'>How does it work ?</div>
         <div className='md:flex md:flex-wrap md:h-[30%] px-4'>
             {data.map((val,index)=>{
                 return(
